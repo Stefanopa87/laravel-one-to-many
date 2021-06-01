@@ -14,7 +14,7 @@
         </p> 
         <ul>
             @foreach ($employee->tasks as $task )
-                <li style="color: red;"">
+                <li style="color: red;">
                     {{$task -> title}}
                 </li>
             @endforeach
